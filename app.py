@@ -1,7 +1,7 @@
 
 
 from Adafruit_IO import Client
-aio = Client('kambooosss','aio_MRMw00DYIINTqLbQUH0Od0C5E51E')
+aio = Client('kambooosss','aio_WkTo23efJXHilxBhrox8jtBNTbOj')
 
 
 
