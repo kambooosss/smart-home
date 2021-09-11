@@ -1,7 +1,7 @@
 
 
 from Adafruit_IO import Client
-aio = Client('kambooosss','aio_gYgp33jD1t35mgfnFO2F1aCywLQV')
+aio = Client('kambooosss','key')
 
 
 
@@ -32,7 +32,7 @@ def main(bot,update):
     demo2(bot,update)
 
 
-bot_token = '1959189837:AAHYhYl4nvq7vXGFtVWoP7ZgQWY0wB_VTtc'
+bot_token = 'token1:token2'
 u = Updater(bot_token,use_context=True)
 dp = u.dispatcher
 dp.add_handler(MessageHandler(Filters.text,main))
