@@ -2,4 +2,5 @@
  MessageHandler
  Filters
  Adafruit_IO
- Client
+ adafruit-io
+ python-telegram-bot==13.0
