@@ -2,3 +2,4 @@
  MessageHandler
  Filters
  Adafruit_IO
+ Client
