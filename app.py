@@ -1,7 +1,7 @@
 pip install adafruit-io
 
 from Adafruit_IO import Client
-aio = Client('kambooosss','aio_MAJQ44YXuPXas0AN4hdY3TN0BTHW')
+aio = Client('kambooosss','aio_zznn37AwV3Q9fkTFX9IdB6cogahp')
 
 pip install python-telegram-bot==13.0 --quiet
 
