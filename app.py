@@ -5,7 +5,7 @@ token1=os.getenv('token1')
 token2=os.getenv('token2')
 
 from Adafruit_IO import Client
-aio = Client('kambooosss',key) 
+aio = Client('kambooosss',f'{key}') 
 
 
 
@@ -36,7 +36,7 @@ def main(bot,update):
     demo2(bot,update)
 
 
-bot_token = 'token1:token2'
+bot_token = f'{token1}:{token2}'
 u = Updater(bot_token,use_context=True)
 dp = u.dispatcher
 dp.add_handler(MessageHandler(Filters.text,main))
